@@ -1,0 +1,248 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+}
+.one {
+  height: 35vh;
+  width: 100%;
+  padding: 1em 0;
+  /* border: 1px solid; */
+}
+.two {
+  height: auto;
+  width: 100%;
+  padding-top: 2em;
+  padding-bottom: 7em;
+  /* border: 1px solid red; */
+}
+.two ul {
+  list-style: none;
+}
+.two ul li {
+  text-align: start;
+}
+hr {
+  font-weight: bolder;
+}
+.img1 {
+  height: 100px;
+}
+.doctor-img {
+  height: 85%;
+  width: 70%;
+}
+.img4 {
+  top: 20%;
+  height: 80%;
+  width: 100%;
+  left: 0%;
+  position: absolute;
+}
+.img3 {
+  position: absolute;
+  top: 35%;
+  left: 50px;
+  height: 80%;
+  width: 100%;
+  z-index: 5;
+}
+.arrow {
+  position: relative;
+}
+.arrow-img {
+  width: 80%;
+  position: absolute;
+  left: 8%;
+}
+.arrow h1 {
+  position: absolute;
+  font-size: 2em;
+  padding-left: 2em;
+  padding-top: 0.3em;
+}
+.img2 {
+  top: 25%;
+  background-size: cover;
+  height: 80%;
+  width: 100%;
+  position: absolute;
+}
+/* ----------------------container-Two------------------------------------ */
+.scon {
+  margin-top: 10%;
+  height: auto;
+  padding-bottom: 15em;
+  background-color: rgb(221, 161, 171);
+  width: 100%;
+}
+.scon h1 {
+  color: rgb(192, 88, 51);
+}
+.lady {
+  height: 20vh;
+  width: 100%;
+}
+.lady img {
+  height: 80%;
+  width: 70%;
+  line-height: 40rem;
+}
+.box-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+.box-box img {
+  height: 30vh;
+  position: relative;
+  top: 8em;
+  margin: 0 1em;
+}
+.max {
+  position: relative;
+  text-align: center;
+  height: 50vh;
+}
+.text {
+  position: absolute;
+  top: 12em;
+  width: 12w;
+  left: 1.5em;
+  color: rgb(192, 88, 51);
+}
+.text:hover {
+  color: black;
+}
+/* ----------------------container -three---------------------------------- */
+.second {
+  height: 120vh;
+  width: 100%;
+}
+.cont2 {
+  height: 100vh;
+}
+.capsule-img {
+  position: absolute;
+  height: 45%;
+  width: 100%;
+}
+.girl-img {
+  position: absolute;
+  height: 60%;
+  width: 140%;
+  left: 50%;
+  top: 40%;
+}
+.pain-text {
+  font-size: 2em;
+}
+.box-img {
+  position: absolute;
+  height: 50%;
+  left: 5%;
+  top: 45%;
+}
+.bottle {
+  z-index: 5;
+  height: 55%;
+  width: 40%;
+  left: 30%;
+}
+/* -------------------------container--four--------------------------------------------- */
+
+.third {
+  height: 30vh;
+  width: 100%;
+  position: relative;
+}
+.f-logo {
+  height: 10vh;
+}
+.comp-logos img {
+  height: 15vh;
+}
+.man {
+  width: 140%;
+  height: 80%;
+  position: absolute;
+  left: 20%;
+}
+.logos {
+  width: 60%;
+  height: 80%;
+}
+/* ----------------------container --five---------------------------------- */
+
+.fourth-section {
+  width: 100%;
+  height: auto;
+  /* border: 1px solid; */
+}
+.bar {
+  width: 102.5%;
+  height: 15%;
+  position: relative;
+}
+.bar-img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+.bar h3,
+p,
+h4 {
+  z-index: 5;
+}
+.bar-btn {
+  position: absolute;
+  width: 20%;
+  height: 80%;
+  z-index: 5;
+  margin: 0.5em 0;
+  left: 60%;
+}
+.bar h4 {
+  position: relative;
+  left: 13%;
+  top: 0.3em;
+  font-size: 2.5em;
+  color: yellow;
+}
+.third-bg {
+  width: 102.5%;
+  height: 100vh;
+  margin-left: -1.2%;
+  /* border: 1px solid red; */
+  background-image: linear-gradient(rgba(85, 83, 83, 0.5), rgb(85, 83, 83, 0.5)),
+    url("./imges/man.png");
+  background-size: cover;
+}
+.food-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7em 0 0 0;
+}
+.food-img img {
+  height: 22vh;
+  margin: 2em;
+}
+
+.bar2 {
+  top: 40%;
+}
+.girl-img2 {
+  top: 15%;
+  left: 10%;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
